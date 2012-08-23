@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RoidsView.h"
 
 @implementation AppDelegate
 
@@ -14,7 +15,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    [UIApplication sharedApplication].statusBarHidden = YES;
+    self.window.backgroundColor = [UIColor blackColor];
+    self.window.rootViewController = [UIViewController new];
+    self.window.rootViewController.view = [[RoidsView alloc] initWithFrame:self.window.bounds];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
