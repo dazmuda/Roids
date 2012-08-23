@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C5011E315E6B779004FB2BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5011E215E6B779004FB2BA /* UIKit.framework */; };
+		1C5011E515E6B779004FB2BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5011E415E6B779004FB2BA /* Foundation.framework */; };
+		1C5011E715E6B779004FB2BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5011E615E6B779004FB2BA /* CoreGraphics.framework */; };
+		1C5011ED15E6B779004FB2BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C5011EB15E6B779004FB2BA /* InfoPlist.strings */; };
+		1C5011EF15E6B779004FB2BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5011EE15E6B779004FB2BA /* main.m */; };
+		1C5011F315E6B779004FB2BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5011F215E6B779004FB2BA /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C5011DE15E6B779004FB2BA /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C5011E215E6B779004FB2BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C5011E415E6B779004FB2BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C5011E615E6B779004FB2BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C5011EA15E6B779004FB2BA /* Asteroids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Asteroids-Info.plist"; sourceTree = "<group>"; };
+		1C5011EC15E6B779004FB2BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C5011EE15E6B779004FB2BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C5011F015E6B779004FB2BA /* Asteroids-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Asteroids-Prefix.pch"; sourceTree = "<group>"; };
+		1C5011F115E6B779004FB2BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C5011F215E6B779004FB2BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C5011DB15E6B779004FB2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5011E315E6B779004FB2BA /* UIKit.framework in Frameworks */,
+				1C5011E515E6B779004FB2BA /* Foundation.framework in Frameworks */,
+				1C5011E715E6B779004FB2BA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C5011D315E6B778004FB2BA = {
+			isa = PBXGroup;
+			children = (
+				1C5011E815E6B779004FB2BA /* Asteroids */,
+				1C5011E115E6B779004FB2BA /* Frameworks */,
+				1C5011DF15E6B779004FB2BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C5011DF15E6B779004FB2BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C5011DE15E6B779004FB2BA /* Asteroids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C5011E115E6B779004FB2BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C5011E215E6B779004FB2BA /* UIKit.framework */,
+				1C5011E415E6B779004FB2BA /* Foundation.framework */,
+				1C5011E615E6B779004FB2BA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C5011E815E6B779004FB2BA /* Asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				1C5011F115E6B779004FB2BA /* AppDelegate.h */,
+				1C5011F215E6B779004FB2BA /* AppDelegate.m */,
+				1C5011E915E6B779004FB2BA /* Supporting Files */,
+			);
+			path = Asteroids;
+			sourceTree = "<group>";
+		};
+		1C5011E915E6B779004FB2BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C5011EA15E6B779004FB2BA /* Asteroids-Info.plist */,
+				1C5011EB15E6B779004FB2BA /* InfoPlist.strings */,
+				1C5011EE15E6B779004FB2BA /* main.m */,
+				1C5011F015E6B779004FB2BA /* Asteroids-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C5011DD15E6B779004FB2BA /* Asteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C5011F615E6B779004FB2BA /* Build configuration list for PBXNativeTarget "Asteroids" */;
+			buildPhases = (
+				1C5011DA15E6B779004FB2BA /* Sources */,
+				1C5011DB15E6B779004FB2BA /* Frameworks */,
+				1C5011DC15E6B779004FB2BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asteroids;
+			productName = Asteroids;
+			productReference = 1C5011DE15E6B779004FB2BA /* Asteroids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C5011D515E6B778004FB2BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "JJ Weber";
+			};
+			buildConfigurationList = 1C5011D815E6B778004FB2BA /* Build configuration list for PBXProject "Asteroids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C5011D315E6B778004FB2BA;
+			productRefGroup = 1C5011DF15E6B779004FB2BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C5011DD15E6B779004FB2BA /* Asteroids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C5011DC15E6B779004FB2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5011ED15E6B779004FB2BA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C5011DA15E6B779004FB2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5011EF15E6B779004FB2BA /* main.m in Sources */,
+				1C5011F315E6B779004FB2BA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C5011EB15E6B779004FB2BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C5011EC15E6B779004FB2BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C5011F415E6B779004FB2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1C5011F515E6B779004FB2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C5011F715E6B779004FB2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Asteroids/Asteroids-Prefix.pch";
+				INFOPLIST_FILE = "Asteroids/Asteroids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C5011F815E6B779004FB2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Asteroids/Asteroids-Prefix.pch";
+				INFOPLIST_FILE = "Asteroids/Asteroids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C5011D815E6B778004FB2BA /* Build configuration list for PBXProject "Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5011F415E6B779004FB2BA /* Debug */,
+				1C5011F515E6B779004FB2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C5011F615E6B779004FB2BA /* Build configuration list for PBXNativeTarget "Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5011F715E6B779004FB2BA /* Debug */,
+				1C5011F815E6B779004FB2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C5011D515E6B778004FB2BA /* Project object */;
+}
