@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Asteroid : NSObject
+@property CALayer* layer;
+@property NSArray* vector;
 + (Asteroid*) createAsteroidAtPosition: (CGPoint) position withView: (UIView*) view;
+-(BOOL)isItInYou:(CGPoint)point;
+-(void)moveInDirection;
 @end
