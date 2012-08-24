@@ -16,6 +16,7 @@
 		1C5011FB15E6B7E3004FB2BA /* Asteroid.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5011FA15E6B7E3004FB2BA /* Asteroid.m */; };
 		1C5011FD15E6B897004FB2BA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5011FC15E6B897004FB2BA /* QuartzCore.framework */; };
 		1C50120015E6BB40004FB2BA /* RoidsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5011FF15E6BB40004FB2BA /* RoidsView.m */; };
+		848118D815E7096A00160739 /* SpaceShip.m in Sources */ = {isa = PBXBuildFile; fileRef = 848118D715E7096A00160739 /* SpaceShip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		1C5011FC15E6B897004FB2BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1C5011FE15E6BB40004FB2BA /* RoidsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoidsView.h; sourceTree = "<group>"; };
 		1C5011FF15E6BB40004FB2BA /* RoidsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoidsView.m; sourceTree = "<group>"; };
+		848118D615E7096A00160739 /* SpaceShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceShip.h; sourceTree = "<group>"; };
+		848118D715E7096A00160739 /* SpaceShip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShip.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				1C5011FA15E6B7E3004FB2BA /* Asteroid.m */,
 				1C5011FE15E6BB40004FB2BA /* RoidsView.h */,
 				1C5011FF15E6BB40004FB2BA /* RoidsView.m */,
+				848118D615E7096A00160739 /* SpaceShip.h */,
+				848118D715E7096A00160739 /* SpaceShip.m */,
 				1C5011E915E6B779004FB2BA /* Supporting Files */,
 			);
 			path = Asteroids;
@@ -170,6 +175,7 @@
 				1C5011F315E6B779004FB2BA /* AppDelegate.m in Sources */,
 				1C5011FB15E6B7E3004FB2BA /* Asteroid.m in Sources */,
 				1C50120015E6BB40004FB2BA /* RoidsView.m in Sources */,
+				848118D815E7096A00160739 /* SpaceShip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

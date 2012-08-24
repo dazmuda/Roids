@@ -8,10 +8,14 @@
 
 #import "RoidsView.h"
 #import "Asteroid.h"
+#import "SpaceShip.h"
 #import <QuartzCore/QuartzCore.h>
 
 @interface RoidsView ()
 @property NSMutableArray* roids;
+@property NSTimer* repeatingTimer;
+@property NSUInteger timerCount;
+@property SpaceShip* ship;
 @end
 
 @implementation RoidsView
@@ -22,12 +26,18 @@
     self.multipleTouchEnabled = YES;
     if (self) {
         self.roids = [NSMutableArray new];
+        
+        //draw roids and ship
         [self createRoids:10];
+        self.ship = [SpaceShip drawSpaceShipAt:self.center In:self];
         
         //make all the roids move
         for (Asteroid* roid in self.roids) {
             [roid moveInDirection];
         }
+        
+        //start the checkDead timer
+        self.repeatingTimer = [NSTimer scheduledTimerWithTimeInterval:.5 target:self selector:@selector(checkDead) userInfo:nil repeats:YES];
 
     }
     return self;
@@ -80,6 +90,21 @@
         }
     }
 
+}
+
+-(void)checkDead {
+    CALayer *shipLayer = [self.ship.layer presentationLayer];
+    
+    //loop through roids
+    for (Asteroid *roid in self.roids) {
+        //check if asteroid intersects ship frame
+        CALayer *roidLayer = [roid.layer presentationLayer];
+        if (CGRectIntersectsRect(shipLayer.frame, roidLayer.frame)) {
+        //DELETE YO SHIP
+            NSLog(@"YOU DIED SUCKA");
+            [self.ship.layer removeFromSuperlayer];
+        }
+    }
 }
 
 @end
